@@ -131,7 +131,7 @@ export default {
           console.log('登录跳转首页出错,这个错误从哪里来的')
         })
         this.$notification.success({
-          message: '欢迎',
+          message: '欢迎使用管理系统',
           description: `${timeFix()}，欢迎回来`,
         });
       },
